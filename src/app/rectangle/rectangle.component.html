@@ -1,0 +1,15 @@
+<div>
+  <label>
+    Length of your Rectangle<br />
+    <input #length placeholder="rectangle length" />
+  </label>
+  <br />
+  <label>
+    Height of you Rectangle<br />
+    <input #height placeholder="rectangle height" />
+  </label>
+  <br />
+  <button (click)="OnClickCalculate(length.value, height.value)">Calculate Area</button>
+
+  <H1>{{Area}}</H1>
+</div>
